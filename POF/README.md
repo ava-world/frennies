@@ -1,59 +1,40 @@
+# POF
 
-![tw-banner](https://github.com/thirdweb-example/next-starter/assets/57885104/20c8ce3b-4e55-4f10-ae03-2fe4743a5ee8)
+POF is a decentralized application (Dapp) built with Next.js for minting of a unique proof of friendship NFT.
 
-# thirdweb-next-starter
+You can test it here: https://pof-one.vercel.app/
 
-Starter template to build an onchain react native app with [thirdweb](https://thirdweb.com/) and [next](https://nextjs.org/).
+---
+
+## Features
+- **Decentralized Platform**: Integrated with Thirdweb for seamless blockchain interactions.
+- **Modern UI**: Styled with Tailwind CSS for responsive and aesthetic design.
+- **Scalable Architecture**: Built on Next.js, supporting server-side rendering for optimal performance.
+
+---
 
 ## Installation
 
-Install the template using [thirdweb create](https://portal.thirdweb.com/cli/create)
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/ava-world/frennies
+   cd frennies/POF
+   ```
 
-```bash
-  npx thirdweb create app --next
-```
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
 
-## Environment Variables
+3. **Run the development server**:
+   ```bash
+   npm run dev
+   ```
 
-To run this project, you will need to add the following environment variables to your .env file:
+## Tech Stack
 
-`CLIENT_ID`
-
-To learn how to create a client ID, refer to the [client documentation](https://portal.thirdweb.com/typescript/v5/client). 
-
-## Run locally
-
-Install dependencies
-
-```bash
-yarn
-```
-
-Start development server
-
-```bash
-yarn dev
-```
-
-Create a production build
-
-```bash
-yarn build
-```
-
-Preview the production build
-
-```bash
-yarn start
-```
-
-## Resources
-
-- [Documentation](https://portal.thirdweb.com/typescript/v5)
-- [Templates](https://thirdweb.com/templates)
-- [YouTube](https://www.youtube.com/c/thirdweb)
-- [Blog](https://blog.thirdweb.com)
-
-## Need help?
-
-For help or feedback, please [visit our support site](https://thirdweb.com/support)
+- **Framework**: Next.js 14.1.0
+- **Frontend**: React 18.3
+- **Blockchain SDK**: Thirdweb 5
+- **Styling**: Tailwind CSS 3.3.0
+- **TypeScript Support**
