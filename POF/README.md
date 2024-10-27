@@ -31,3 +31,10 @@ You can test it here: https://pof-one.vercel.app/
    npm run dev
    ```
 
+## Tech Stack
+
+- **Framework**: Next.js 14.1.0
+- **Frontend**: React 18.3
+- **Blockchain SDK**: Thirdweb 5
+- **Styling**: Tailwind CSS 3.3.0
+- **TypeScript Support**
